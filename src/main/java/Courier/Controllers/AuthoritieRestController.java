@@ -33,7 +33,7 @@ public class AuthoritieRestController {
     }
 
     @GetMapping("/{id}")
-    public Object get(@PathVariable String id) {
+    public ResponseEntity<?> get(@PathVariable String id) {
         return null;
     }
 
